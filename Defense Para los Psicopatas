@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defensa Legal y Psicopatía</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a3c34;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            width: 80%;
+            max-width: 900px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 50px;
+            text-align: center;
+        }
+        h1 {
+            color: #b0e57c;
+        }
+        button {
+            background-color: #b0e57c;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #8cc063;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Defensa Legal para Personas con Psicopatía</h1>
+        <p>Las personas con psicopatía pueden no ser plenamente conscientes de sus actos debido a su condición neurológica. Es necesario un enfoque legal que tome en cuenta esta realidad.</p>
+        
+        <h2>Leyes y Derechos Relacionados</h2>
+        <ul>
+            <li><strong>Inimputabilidad por Trastornos Mentales:</strong> En muchos países, las personas con enfermedades mentales severas pueden ser declaradas inimputables si no comprendían la naturaleza de sus actos.</li>
+            <li><strong>Tratamiento en Lugar de Prisión:</strong> Leyes como la <em>Insanity Defense Reform Act</em> en EE.UU. permiten que algunas personas sean enviadas a instituciones de salud mental en lugar de cárceles.</li>
+            <li><strong>Derecho a una Defensa Justa:</strong> Todos tienen derecho a un juicio justo con peritajes psiquiátricos adecuados para evaluar su responsabilidad penal.</li>
+            <li><strong>Hospitalización en Centros Psiquiátricos:</strong> En lugar de prisión, muchas legislaciones permiten que personas con trastornos mentales graves sean tratadas en hospitales psiquiátricos de alta seguridad para su rehabilitación y tratamiento adecuado.</li>
+        </ul>
+        
+        <button onclick="mostrarMensaje()">Más Información</button>
+        <p id="info" style="display: none;">Las leyes deben adaptarse para ofrecer tratamientos adecuados en lugar de penas desproporcionadas. La reinserción social y el tratamiento son clave para reducir la reincidencia.</p>
+    </div>
+    <script>
+        function mostrarMensaje() {
+            document.getElementById("info").style.display = "block";
+        }
+    </script>
+</body>
+</html>
